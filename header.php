@@ -17,7 +17,7 @@
 <div class="wrapper">
 	<div class="wrapper-container">
 	
-		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'customscores' ); ?></a>
+		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'ninja-shadow' ); ?></a>
 		<!-- Header -->
 		<div class="header">
 			<div class="header-container">

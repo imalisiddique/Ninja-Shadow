@@ -70,6 +70,12 @@
 			.top-footer{
 				margin-bottom: 3em;
 			}
+			.site-info {
+				color: white;
+				text-align: center;
+			}
+
+		
 		
 /* 	==========================================================================
 	Header
@@ -209,6 +215,8 @@
 		width: 100%;
 		border-bottom: 1px solid #F7F7F7;
 		border-top: 1px solid #F7F7F7;
+		display: flex;
+		justify-content: center;
 	}
 	.footer-navigation li{
 		float: left;

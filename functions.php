@@ -73,6 +73,8 @@
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
+
+		add_theme_support( 'custom-header' );
 	}
 	endif; // ninja_shadow_setup
 	add_action( 'after_setup_theme', 'ninja_shadow_setup' );
@@ -141,11 +143,6 @@
 	require get_template_directory() . '/libs/scripts.php';
 
 
-//	Implement the Custom Header feature.
-//	=================================================================
-
-	// require get_template_directory() . '/libs/custom-header.php';
-
 //	Custom template tags for this theme.
 //	=================================================================
 
@@ -156,13 +153,4 @@
 
 	require get_template_directory() . '/libs/extras.php';
 
-//	Customizer additions.
-//	=================================================================
-
-	require get_template_directory() . '/libs/customizer.php';
-
-//	Load Jetpack compatibility file.
-//	=================================================================
-
-	require get_template_directory() . '/libs/jetpack.php';
 

@@ -38,7 +38,11 @@
 						<div class="site-info">
 							<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'ninja-shadow' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'ninja-shadow' ), 'WordPress' ); ?></a>
 							<span class="sep"> | </span>
-							<?php printf( __( 'Theme: %1$s by %2$s.', 'ninja-shadow' ), 'ninja-shadow', '<a href="http://alisiddique.com/" rel="designer">Ali Siddique</a>' ); ?>
+							<?php 
+							$themeName = 'Ninja Shadow';
+							$themeBy = '<a href="https://alisiddique.com/" rel="designer">Ali Siddique</a>';
+							?>
+							<?php printf( __( 'Theme: %1$s by %2$s.', 'ninja-shadow' ), $themeName , $themeBy ); ?>
 						</div><!-- .site-info -->
 					</div>
 				</div>
@@ -51,6 +55,5 @@
 ---------------------------------------------- -->
 
 <?php wp_footer(); ?>
-
 </body>
 </html>
